@@ -1,0 +1,36 @@
+body {
+
+    background-image: url('dhoni.jpg.jpg');
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+    border-radius: 40px; /* Optional: Add some border-radius for a rounded look */
+    
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
